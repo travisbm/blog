@@ -1,3 +1,13 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.welcome-row {
+  text-align: center;
+  margin-top: 250px;
+}
+
+a.welcome {
+  margin-left: 35px;
+  margin-right: 35px;
+}
