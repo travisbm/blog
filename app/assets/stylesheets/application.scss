@@ -15,7 +15,13 @@
  // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ @import "welcome.scss";
+ @import "articles.scss";
+ @import "comments.scss";
 
 .btn-primary {
   border-radius: 0;
+  padding-left: 35px;
+  padding-right: 35px;
 }
+

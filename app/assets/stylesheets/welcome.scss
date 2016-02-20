@@ -2,12 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.welcome-row {
+.col-md-4.col-md-offset-4.welcome {
   text-align: center;
-  margin-top: 250px;
-}
-
-a.welcome {
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-top: 300px;
 }
