@@ -1,11 +1,9 @@
 <%= form_for([@article, @article.comments.build]) do |f| %>
   <p>
-    <%= f.label :commenter %><br>
-    <%= f.text_field :commenter %>
+    <%= f.text_field :commenter, class: 'form-control', placeholder: "Commenter" %>
   </p>
   <p>
-    <%= f.label :body %><br>
-    <%= f.text_area :body %>
+    <%= f.text_area :body, class: 'form-control', rows: '3', placeholder: "Body" %>
   </p>
   <p>
     <%= f.submit class: 'btn btn-primary' %>

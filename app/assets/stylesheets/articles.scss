@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.col-md-8.col-md-offset-2.article h1, h3 {
+.col-md-8.col-md-offset-2.article h1 {
     text-align: center;
 }
 
@@ -10,6 +10,9 @@
     margin-bottom: 20px;
 }
 
+#buttons.col-md-4 {
+    margin-top: 13px;
+}
 
 
 
